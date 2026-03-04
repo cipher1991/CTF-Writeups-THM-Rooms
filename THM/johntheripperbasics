@@ -12,51 +12,52 @@ Learn how to use John the Ripper, a powerful and adaptable hash-cracking tool.
 
   ## commands
   
-What type of hash is hash1.txt? (copy hash and upload at online hasg identifier)
+*What type of hash is hash1.txt? (copy hash and upload at online hasg identifier)
 
 >> md5
 
-What is the cracked value of hash1.txt? (john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash1.txt)
+*What is the cracked value of hash1.txt? (john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash1.txt)
 
 >> biscuit
 
-What type of hash is hash2.txt?
+*What type of hash is hash2.txt?
 
 >> sha1
 
-What is the cracked value of hash2.txt? (john --format=sha1 --wordlist=/usr/share/wordlists/rockyou.txt hash2.txt)
+*What is the cracked value of hash2.txt? (john --format=sha1 --wordlist=/usr/share/wordlists/rockyou.txt hash2.txt)
 
 >> kangeroo
 
-What type of hash is hash3.txt?
+*What type of hash is hash3.txt?
 
 >> sha256
 
-What is the cracked value of hash3.txt?  (john --format=sha256 --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt)
+*What is the cracked value of hash3.txt?  (john --format=sha256 --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt)
 
 >> microphone
 
-What type of hash is hash4.txt?
+*What type of hash is hash4.txt?
 
 >> whirlpool
 
-What is the cracked value of hash4.txt? (john --format=whirlpool --wordlist=/usr/share/wordlists/rockyou.txt hash4.txt)
+*What is the cracked value of hash4.txt? (john --format=whirlpool --wordlist=/usr/share/wordlists/rockyou.txt hash4.txt)
 
 >> colossal
   
 
 # Task-5 Cracking Windows Authentication Hashes
 
-What do we need to set the --format flag to in order to crack this hash? (john --format=NT --wordlist=/usr/share/wordlists/rockyou.txt ntlm.txt)
+*What do we need to set the --format flag to in order to crack this hash? (john --format=NT --wordlist=/usr/share/wordlists/rockyou.txt ntlm.txt)
 
 >> nt
 
-What is the cracked value of this password?
+*What is the cracked value of this password?
 
 >> mushroom
 
 # Task-6 Cracking /etc/shadow Hashes
 
-What is the root password? (john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt etc_hashes.txt)
+*What is the root password? (john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt etc_hashes.txt)
 
 >> 1234
+
