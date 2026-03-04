@@ -45,4 +45,18 @@ What is the cracked value of hash4.txt? (john --format=whirlpool --wordlist=/usr
 >> colossal
   
 
-  
+# Task-5 Cracking Windows Authentication Hashes
+
+What do we need to set the --format flag to in order to crack this hash? (john --format=NT --wordlist=/usr/share/wordlists/rockyou.txt ntlm.txt)
+
+>> nt
+
+What is the cracked value of this password?
+
+>> mushroom
+
+# Task-6 Cracking /etc/shadow Hashes
+
+What is the root password? (john --wordlist=/usr/share/wordlists/rockyou.txt --format=sha512crypt etc_hashes.txt)
+
+>> 1234
