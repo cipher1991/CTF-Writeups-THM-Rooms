@@ -1,0 +1,48 @@
+# TryHackMe - johntheripperbasics Write-up
+
+## Room
+https://tryhackme.com/room/johntheripperbasics
+
+## Objective
+Learn how to use John the Ripper, a powerful and adaptable hash-cracking tool.
+
+---
+
+## Task-4
+
+  ## commands
+  
+What type of hash is hash1.txt? (copy hash and upload at online hasg identifier)
+
+>> md5
+
+What is the cracked value of hash1.txt? (john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt hash1.txt)
+
+>> biscuit
+
+What type of hash is hash2.txt?
+
+>> sha1
+
+What is the cracked value of hash2.txt? (john --format=sha1 --wordlist=/usr/share/wordlists/rockyou.txt hash2.txt)
+
+>> kangeroo
+
+What type of hash is hash3.txt?
+
+>> sha256
+
+What is the cracked value of hash3.txt?  (john --format=sha256 --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt)
+
+>> microphone
+
+What type of hash is hash4.txt?
+
+>> whirlpool
+
+What is the cracked value of hash4.txt? (john --format=whirlpool --wordlist=/usr/share/wordlists/rockyou.txt hash4.txt)
+
+>> colossal
+  
+
+  
